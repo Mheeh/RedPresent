@@ -1,0 +1,22 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  part: 50.0
+  is_buyer: true
+  present: clock
+  user: eva
+two:
+  part: 50.0
+  is_buyer: false
+  present: clock
+  user: john
+three:
+  part: 20.0
+  is_buyer: true
+  present: bomb
+  user: eva
+four:
+  part: 60.0
+  is_buyer: false
+  present: bomb
+  user: smith

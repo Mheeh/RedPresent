@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: john
+  payment_to: smith
+  amount: 50.0
+
+two:
+  user: john
+  payment_to: eva
+  amount: 30.00

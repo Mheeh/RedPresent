@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+clock:
+  description: "Clock for Smith"
+  price: 100.00
+
+bomb:
+  description: "Bomb for John"
+  price: 360.00
