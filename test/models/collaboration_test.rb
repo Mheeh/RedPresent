@@ -23,6 +23,11 @@ class CollaborationTest < ActiveSupport::TestCase
 
   end
 
+  test "buyer scope" do
+    assert_equal Collaboration.where( is_buyer:  true).count, Collaboration.buyer.count
+  end
+
+
   context "Shoulda Tests" do
 
     should validate_presence_of(:part)
