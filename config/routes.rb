@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  devise_for :users
+
+  root 'home#hello'
+
   resources :payments
   resources :balances
   resources :collaborations
