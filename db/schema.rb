@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170207032415) do
+ActiveRecord::Schema.define(version: 20170210020750) do
 
   create_table "balances", force: :cascade do |t|
     t.float    "amount"
@@ -47,9 +47,10 @@ ActiveRecord::Schema.define(version: 20170207032415) do
   create_table "presents", force: :cascade do |t|
     t.string   "description"
     t.float    "price"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
     t.string   "name"
+    t.boolean  "locked",      default: false
   end
 
   create_table "users", force: :cascade do |t|

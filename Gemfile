@@ -31,9 +31,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise'
-gem 'draper'
+gem 'drape'
 gem 'decent_exposure', '3.0.0'
 gem 'slim-rails'
+gem 'activemodel-serializers-xml'
 
 group :test do
   gem 'rspec'
